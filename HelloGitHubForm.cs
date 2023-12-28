@@ -21,5 +21,10 @@ namespace github
         {
             MessageBox.Show("Hello GitHub.");
         }
+
+        private void modifierButton_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Yellow;
+        }
     }
 }
