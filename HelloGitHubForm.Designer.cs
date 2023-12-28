@@ -33,12 +33,14 @@
             // 
             // HelloButton
             // 
-            this.HelloButton.Location = new System.Drawing.Point(266, 129);
+            this.HelloButton.BackColor = System.Drawing.Color.IndianRed;
+            this.HelloButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HelloButton.Location = new System.Drawing.Point(266, 109);
             this.HelloButton.Name = "HelloButton";
-            this.HelloButton.Size = new System.Drawing.Size(75, 23);
+            this.HelloButton.Size = new System.Drawing.Size(142, 43);
             this.HelloButton.TabIndex = 0;
             this.HelloButton.Text = "HelloGitHub";
-            this.HelloButton.UseVisualStyleBackColor = true;
+            this.HelloButton.UseVisualStyleBackColor = false;
             this.HelloButton.Click += new System.EventHandler(this.HelloButton_Click);
             // 
             // HelloGitHubForm
